@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home_bg {
+  background: url("./assets/Images/bghome.svg");
+}
+.szh-menu__item--submenu {
+  padding: 0 !important; /* Remove default padding */
+}
+.szh-menu__item--hover {
+  background-color: transparent !important; /* Remove default padding */
+}
