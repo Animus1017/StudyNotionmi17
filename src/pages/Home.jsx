@@ -65,7 +65,7 @@ const Home = () => {
         {/* codeblocks */}
         <div>
           <CodeBlocks
-            position="flex-row"
+            position="md:flex-row"
             heading={
               <h3 className="text-3xl md:text-4xl font-semibold">
                 Unlock your <HighlightText text="coding potential" /> with our
@@ -88,7 +88,7 @@ const Home = () => {
             codeColor="text-yellow-25"
           />
           <CodeBlocks
-            position="flex-row-reverse"
+            position="md:flex-row-reverse"
             heading={
               <h3 className="text-3xl md:text-4xl font-semibold">
                 Start <HighlightText text={`coding \n in seconds`} />

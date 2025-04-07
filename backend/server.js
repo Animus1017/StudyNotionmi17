@@ -21,11 +21,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-<<<<<<< HEAD
-    origin: "https://studynotion-mi17.vercel.app/",
-=======
-    origin: ['https://studynotion-mi17.vercel.app', 'https://studynotion-mi17.vercel.app/'],
->>>>>>> 1e0f6c488dd9b2e3311e00e9d56aa8449238acb4
+    origin: [
+      "https://studynotion-mi17.vercel.app",
+      "https://studynotion-mi17.vercel.app/",
+    ],
     credentials: true,
   })
 );

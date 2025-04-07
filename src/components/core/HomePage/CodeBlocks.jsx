@@ -15,7 +15,7 @@ const CodeBlocks = ({
 }) => {
   return (
     <div
-      className={`flex md:flex-row flex-col ${position} py-8 md:py-16 lg:py-[90px] gap-6 md:gap-0 md:justify-around md:items-center`}
+      className={`flex flex-col ${position} py-8 md:py-16 lg:py-[90px] gap-6 md:gap-0 md:justify-around md:items-center`}
     >
       {/* static elements */}
       <div className="w-full lg:w-2/5 flex flex-col gap-9 md:gap-11 lg:gap-16">
