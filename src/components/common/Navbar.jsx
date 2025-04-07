@@ -54,7 +54,7 @@ const Navbar = () => {
                     className="absolute top-[165%] -left-[165%] invisible group-hover:visible flex flex-col rounded-lg bg-richblack-5
                    text-richblack-900 transition-all duration-200 opacity-0 group-hover:opacity-100 p-4 w-72 z-[500]"
                   >
-                    <div className="absolute left-2/3 -top-[1%] w-6 h-6 rounded rotate-45 bg-richblack-5 -z-10"></div>
+                    <div className="absolute left-2/3 -top-[2%] w-6 h-6 rounded rotate-45 bg-richblack-5 -z-10"></div>
 
                     {loading ? (
                       <div className="p-4 ">Loading...</div>
