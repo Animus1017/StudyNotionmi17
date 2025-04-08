@@ -65,7 +65,7 @@ const passwordResetEmail = (name, resetLink) => {
 
 <body>
     <div class="container">
-        <a href="https://studynotion-edtech-project.vercel.app">
+        <a href="https://studynotion-mi17.vercel.app/">
             <img class="logo"
                 src="https://res.cloudinary.com/deru8rihm/image/upload/v1739174882/StudyNotion/b6rfxe54rmjn9anoewqk.png"
                 alt="StudyNotion Logo">
